@@ -92,8 +92,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'onlineshop',
         'USER': 'gusrn8959',
-        'PASSWORD': 'ehfksxm489',
-        'HOST':'onlineshop1.chq2vp4ckg4t.ap-northeast-2.rds.amazonaws.com',
+        'PASSWORD': '*',
+        'HOST':'*',
         'PORT':'3306',
     },
     'OPTIONS': {
