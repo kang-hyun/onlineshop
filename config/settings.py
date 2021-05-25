@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-65(uloh&-wqi#**1co0w1pju3(3(2*i!_hrv=db4svgx219!^z'
+SECRET_KEY = '*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -146,8 +146,8 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DEFAULT_FILE_STORAGE = 'config.asset_storage.MediaStorage'
 
-AWS_ACCESS_KEY_ID = 'AKIAUTOFK3Q6SOHLSHBO'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = '*'
+AWS_SECRET_ACCESS_KEY = '*'
 AWS_REGION = 'ap-northeast-2'
 AWS_STORAGE_BUCKET_NAME = 'kangs-onlineshop'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.%s.amazonaws.com' % (AWS_STORAGE_BUCKET_NAME, AWS_REGION)
@@ -169,8 +169,8 @@ LOGIN_REDIRECT_URL = '/'
 
 CART_ID = 'cart_in_session'
 
-IAMPORT_KEY = '6296546585405168'
-IAMPORT_SECRET = 'CI4G1cqIpppYQ4uIDZLa9sZgwXyApVG2DKIFX9nmyNkpRP7vPTGYlFfRDNr3I85mTO1QXpdwdyV4n3Ad'
+IAMPORT_KEY = '*'
+IAMPORT_SECRET = '*'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
